@@ -1,0 +1,67 @@
+.header {
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__title {
+  margin: 183px 0 0 80px;
+  max-width: 709px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  display: block;
+}
+
+.header__description {
+  margin: 28px 0 0 80px;
+  max-width: 683px;
+  box-sizing: border-box;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 80px 40px;
+  font-weight: 500;
+  color: #838383;
+  z-index: 1;
+}
+
+.header__paragraph {
+  margin: 0;
+}

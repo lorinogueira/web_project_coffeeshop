@@ -47,6 +47,7 @@
   right: 5px;
   width: 581px;
   height: 511px;
+  z-index: -1;
 }
 
 .header__footer {
